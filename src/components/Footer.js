@@ -1,6 +1,7 @@
 import React from "react"
 import {usestaticquery, graphql, useStaticQuery} from "gatsby"
-import {FooterWrapper, FooterSocialWrapper, FooterSocialIcons} from "../elements"
+import {FooterWrapper, FooterSocialWrapper, FooterSocialIcons,P} from "../elements"
+
 
 export const Footer = () => {
 
@@ -36,7 +37,7 @@ export const Footer = () => {
                     <img src={data.wordpress.publicURL} />
                 </a>
             </FooterSocialIcons>
-            <p>2020 Flavia Medici. All Rights Reserved.</p>
+            <P size="xSmall" color="dark3">2020 Flavia Medici. All Rights Reserved.</P>
         </FooterSocialWrapper>
     </FooterWrapper>
 }
