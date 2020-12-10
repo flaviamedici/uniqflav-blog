@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, ContentCard, FeatureImage } from "../components"
+import { Container, Content, ContentCard, FeatureImage } from "../components"
 
 const IndexPage = () => {
     return (
