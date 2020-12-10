@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const ContentWrapper = styled.main`
+export const PostWrapper = styled.main`
     grid-column: 4 / span 8;
     grid-row: 3 / span 5;
     background-color: ${props => props.theme.colors.light2};

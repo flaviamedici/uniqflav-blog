@@ -31,7 +31,7 @@ export const PaginationWrapper = styled.div`
 
 `
 
-export const PaginationElement = styled(props => <Link {...props} />)`
+export const PaginationElements = styled(props => <Link {...props} />)`
     font-size: 0.875rem;
     line-height: 1.125rem;
     font-weight:400;

@@ -1,11 +1,11 @@
 import React from "react"
-import { PaginationWrapper, PaginationElement } from "../elements"
+import { PaginationWrapper, PaginationElements } from "../elements"
 
 export const Pagination = ({isFirst, isLast, prevPage, nextPage}) => {
     return (
         <PaginationWrapper isFirst={isFirst} isLast={isLast}>
-            <PaginationElement to={prevPage}>Previous Page</PaginationElement>
-            <PaginationElement to={nextPage}>Next Page</PaginationElement>
+            <PaginationElements to={prevPage}>Previous Page</PaginationElements>
+            <PaginationElements to={nextPage}>Next Page</PaginationElements>
         </PaginationWrapper>
     )
 } 
