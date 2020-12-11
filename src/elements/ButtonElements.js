@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 
 export const ButtonWrapper = styled(props => <Link {...props} />)`
     padding: 0.5rem 0.75rem;
-    background-color: ${props => props.theme.colors.main};
+    background-color: ${props => props.theme.colors.main1S};
     border-radius: 0.5rem;
     color: ${props => props.theme.colors.light1};
     font-weight: 700;
@@ -15,6 +15,6 @@ export const ButtonWrapper = styled(props => <Link {...props} />)`
     text-decoration: none;
     &:hover,
     &:focus {
-        filter:brightness(110%);
+        filter: brightness(110%);
     }
 `

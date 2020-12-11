@@ -20,7 +20,7 @@ exports.createPages = async function({actions, graphql}) {
 
     const numPages = Math.ceil(data.allMdx.edges.length / postPerPage)
 
-    Array.from({length: numPages}).forEach((_, i) => {
+    Array.from({ length: numPages }).forEach((_, i) => {
         actions.createPage({
             path: i === 0 ? `/` : `/${i + 1}`,
             component: require.resolve("./src/templates/allPosts.js"),
@@ -29,7 +29,7 @@ exports.createPages = async function({actions, graphql}) {
                 skip: i * postPerPage,
                 numPages,
                 currentPage: i + 1,
-            }
+            },
         })
     })
 

@@ -1,5 +1,5 @@
 import React from "react"
-import {usestaticquery, graphql, useStaticQuery} from "gatsby"
+import {graphql, useStaticQuery} from "gatsby"
 import {FooterWrapper, FooterSocialWrapper, FooterSocialIcons,P} from "../elements"
 
 
