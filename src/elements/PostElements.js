@@ -59,7 +59,7 @@ export const PostWrapper = styled.main`
         text-transform: uppercase;
     }
 
-    p{
+    p {
         font-size: 1.125rem;
         line-height: 1.875rem;
         font-weight: 400;
