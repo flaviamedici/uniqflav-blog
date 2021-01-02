@@ -1,5 +1,13 @@
 
 module.exports = {
+  siteMetadata: {
+    title: "My MDX Blog",
+    description: "My personal blog",
+    url: "https://flaviamedici.com",
+    image: "/sunset.png",
+    twitterUserName: "@flavia_o_m",
+    author: "Flavia Medici"
+  },
   /* Your site config here */
   plugins: [
     {
