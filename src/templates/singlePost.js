@@ -8,7 +8,7 @@ import {Container, Post, FeatureImage, Seo} from "../components"
 const singlePost = ({data}) => {
     const featureImage = data.mdx.frontmatter.featureImage.childImageSharp.fixed
 
-    const SeoImage = data.mdx.frontmatter.featureImage.publicURL
+    const seoImage = data.mdx.frontmatter.featureImage.publicURL
     return (
         <Container>
           <Seo 

@@ -22,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
 
 const components = {
     table: Table,
-    pre: preprops => {
+    pre: preProps => {
         const props = preToCodeBlock(preProps)
         //if there's a codeString and some props, we assed the test
         if (props) {

@@ -25,16 +25,16 @@ export const Footer = () => {
         <FooterSocialWrapper>
             <FooterSocialIcons>
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                    <img src={data.instagram.publicURL} />
+                    <img src={data.instagram.publicURL} alt="Instagram icon" />
                 </a>
                 <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
-                    <img src={data.pinterest.publicURL} />
+                    <img src={data.pinterest.publicURL} alt="Pinterest icon" />
                 </a>
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                    <img src={data.github.publicURL} />
+                    <img src={data.github.publicURL} alt="Github icon" />
                 </a>
                 <a href="https://flaviamedici.com" target="_blank" rel="noopener noreferrer">
-                    <img src={data.wordpress.publicURL} />
+                    <img src={data.wordpress.publicURL} alt="website icon" />
                 </a>
             </FooterSocialIcons>
             <P size="xSmall" color="dark3">2020 Flavia Medici. All Rights Reserved.</P>
