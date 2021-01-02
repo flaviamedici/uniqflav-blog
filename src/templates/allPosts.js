@@ -20,14 +20,12 @@ const allPosts = ({pageContext, data}) => {
             <FeatureImage />
             <Content>
                 <H1 textAlign="center" margin="0 0 1rem 0">
-                    Here's some text for my title
+                   Uniq Flav blog
                 </H1>
                 <P color="dark2" textAlign="center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                This is the space I've created to share my everyday life and interests. I am 35 years old living in Seattle, 
+                I am a proud dog mom, I work in tech and I love make-up, shoes and the gym. 
+                My 2021 mantra: "I love myself and I am open to love and receive love from others" 
                 </P>
                 {posts.map(post => (
                     <ContentCard 
