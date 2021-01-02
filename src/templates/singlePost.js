@@ -9,6 +9,7 @@ const singlePost = ({data}) => {
     const featureImage = data.mdx.frontmatter.featureImage.childImageSharp.fixed
 
     const seoImage = data.mdx.frontmatter.featureImage.publicURL
+
     return (
         <Container>
           <Seo 
